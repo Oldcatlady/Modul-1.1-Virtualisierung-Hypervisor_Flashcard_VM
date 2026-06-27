@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Was versteht man unter Virtualisierung?",
+    "answer": "Virtualisierung ermöglicht das gleichzeitige Ausführen mehrerer isolierter Betriebssysteme auf einer einzigen physischen Hardware."
+  },
+  {
+    "question": "Was denkt ein Gastbetriebssystem über die Hardware, auf der es läuft?",
+    "answer": "Es denkt, es laufe auf echter, dedizierter Hardware — es sieht keine anderen VMs."
+  },
+  {
+    "question": "Was ist ein Hypervisor und wo läuft er?",
+    "answer": "Der Hypervisor ist die Software-Schicht, die Hardware-Ressourcen verwaltet und für VMs bereitstellt."
+  },
+  {
+    "question": "Was sind die drei physischen Ressourcen, die der Hypervisor aufteilt?",
+    "answer": "CPU, RAM, HDD/SSD."
+  },
+  {
+    "question": "Was ist eine Virtual Machine (VM)?",
+    "answer": "Ein virtuelles, isoliertes Betriebssystem, das innerhalb eines Hypervisors läuft."
+  },
+  {
+    "question": "Nenne drei Beispiele für Betriebssysteme, die als VM laufen können.",
+    "answer": "Windows 11, Linux, BSD."
+  },
+  {
+    "question": "Was ist Dual Boot und wie unterscheidet es sich grundlegend von Virtualisierung?",
+    "answer": "Dual Boot installiert mehrere OS auf verschiedenen Partitionen derselben Festplatte; beim Start wählt man eines aus."
+  },
+  {
+    "question": "Warum ist Dual Boot keine Virtualisierung?",
+    "answer": "Weil nie zwei Systeme gleichzeitig laufen — es gibt keine gemeinsame Ressourcenteilung zur Laufzeit."
+  },
+  {
+    "question": "Was ist der entscheidende architektonische Unterschied zwischen Typ-1- und Typ-2-Hypervisor?",
+    "answer": "Typ 1 läuft direkt auf der Hardware, Typ 2 läuft als Applikation auf einem Host-OS."
+  },
+  {
+    "question": "Auf was läuft ein Typ-1-Hypervisor direkt?",
+    "answer": "Direkt auf der physischen Hardware — kein darunterliegendes OS."
+  },
+  {
+    "question": "Als was läuft ein Typ-2-Hypervisor?",
+    "answer": "Als normale Anwendung auf einem bestehenden Host-Betriebssystem."
+  },
+  {
+    "question": "Wie lautet die Schichtenfolge bei Typ 1?",
+    "answer": "Hardware → Hypervisor → VMs."
+  },
+  {
+    "question": "Wie lautet die Schichtenfolge bei Typ 2?",
+    "answer": "Hardware → Host-OS → Hypervisor → VMs."
+  },
+  {
+    "question": "Warum ist Typ 1 schneller als Typ 2?",
+    "answer": "Weil kein Host-OS dazwischenliegt, das selbst Ressourcen verbraucht (kein Overhead)."
+  },
+  {
+    "question": "In welchem Umfeld wird Typ 1 typischerweise eingesetzt?",
+    "answer": "Serverräume, Rechenzentren, Unternehmens-IT."
+  }
+]
