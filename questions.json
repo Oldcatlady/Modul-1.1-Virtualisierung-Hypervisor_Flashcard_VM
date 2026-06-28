@@ -33,7 +33,7 @@
   },
   {
     "question": "Was ist der entscheidende architektonische Unterschied zwischen Typ-1- und Typ-2-Hypervisor?",
-    "answer": "Typ 1 läuft direkt auf der Hardware, Typ 2 läuft als Applikation auf einem Host-OS."
+    "answer": "Typ 1 läuft direkt auf der Hardware, Typ 2 läuft als Applikation auf einem Host-Betriebssystem."
   },
   {
     "question": "Auf was läuft ein Typ-1-Hypervisor direkt?",
