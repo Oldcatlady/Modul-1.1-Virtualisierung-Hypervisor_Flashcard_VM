@@ -44,19 +44,19 @@
     "answer": "Er läuft als normale Anwendung auf einem bestehenden Host-Betriebssystem."
   },
   {
-    "question": "Wie lautet die Schichtenfolge bei Typ 1?",
+    "question": "Wie lautet die Schichtenfolge bei einem Typ 1 Hypervisor?",
     "answer": "Hardware → Hypervisor → VMs."
   },
   {
-    "question": "Wie lautet die Schichtenfolge bei Typ 2?",
+    "question": "Wie lautet die Schichtenfolge bei einem Typ 2 Hypervisor?",
     "answer": "Hardware → Host-OS → Hypervisor → VMs."
   },
   {
-    "question": "Warum ist Typ 1 schneller als Typ 2?",
-    "answer": "Weil kein Host-OS dazwischenliegt, das selbst Ressourcen verbraucht (kein Overhead)."
+    "question": "Warum ist ein Typ 1 Hypervisor schneller als Typ 2 Hypervisor?",
+    "answer": "Weil kein Host-Betriebssystem dazwischenliegt, das selbst Ressourcen verbraucht (kein Overhead)."
   },
   {
-    "question": "In welchem Umfeld wird Typ 1 typischerweise eingesetzt?",
-    "answer": "Serverräume, Rechenzentren, Unternehmens-IT."
+    "question": "In welchem Umfeld wird ein Typ 1 Hypervisor typischerweise eingesetzt?",
+    "answer": "In Serverräume, Rechenzentren und in Unternehmens-IT."
   }
 ]
