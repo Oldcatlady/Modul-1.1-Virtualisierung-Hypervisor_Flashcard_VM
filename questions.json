@@ -40,8 +40,8 @@
     "answer": "Direkt auf der physischen Hardware — kein darunterliegendes OS."
   },
   {
-    "question": "Als was läuft ein Typ-2-Hypervisor?",
-    "answer": "Als normale Anwendung auf einem bestehenden Host-Betriebssystem."
+    "question": "Wie wird ein Typ-2-Hypervisor betrieben?",
+    "answer": "Er läuft als normale Anwendung auf einem bestehenden Host-Betriebssystem."
   },
   {
     "question": "Wie lautet die Schichtenfolge bei Typ 1?",
